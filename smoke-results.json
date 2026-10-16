@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Sayfa /",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"LernKoko · Almanca ve İngilizce Eğitimi\", hata 1 (console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Giriş yap Üye ol ÜCRETSİZ ALMANCA VE İNGİLİZCE Almancayı resimlerle, sesle ve küçük adımlarla öğren. LernKoko'da kelimeleri resimli kartlarla tanır,"
+  },
+  {
+    "name": "Girissiz ana sayfada tanitim ve uye ol dugmesi var",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Girissiz /ev-esyalar giris sayfasina yonleniyor",
+    "ok": true,
+    "detail": "http://localhost:5173/giris?return_to=%2Fev-esyalar"
+  },
+  {
+    "name": "Girissiz /fiiller giris sayfasina yonleniyor",
+    "ok": true,
+    "detail": "http://localhost:5173/giris?return_to=%2Ffiiller"
+  },
+  {
+    "name": "Girissiz /a1-2/ev-ve-yasam giris sayfasina yonleniyor",
+    "ok": true,
+    "detail": "http://localhost:5173/giris?return_to=%2Fa1-2%2Fev-ve-yasam"
+  },
+  {
+    "name": "Girissiz /hesabim giris sayfasina yonleniyor",
+    "ok": true,
+    "detail": "http://localhost:5173/giris?return_to=%2Fhesabim"
+  },
+  {
+    "name": "Sayfa /giris",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"Giriş yap · LernKoko\", hata 1 (console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Giriş yap Üye ol Giriş yap Kaldığın yerden devam etmek için giriş yap. E-posta Şifre Giriş yap Hesabın yok mu? Ücretsiz üye ol Şifremi unuttum © 202"
+  },
+  {
+    "name": "Sayfa /uye-ol",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"Üye ol · LernKoko\", hata 1 (console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Giriş yap Üye ol Ücretsiz üye ol Bütün dersler üyelere açık. İlerlemen hesabına kaydedilir. Adın E-posta Şifre En az 8 karakter. Başka sitelerde kul"
+  },
+  {
+    "name": "Sayfa /gizlilik",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"Gizlilik ve kişisel veriler · LernKoko\", hata 1 (console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Giriş yap Üye ol Gizlilik ve kişisel veriler Son güncelleme: 16 Ekim 2026 LernKoko, Almanca ve İngilizce öğrenmek için ücretsiz bir sitedir. Bu meti"
+  },
+  {
+    "name": "Sayfa /kullanim-kosullari",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"Kullanım koşulları · LernKoko\", hata 1 (console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Giriş yap Üye ol Kullanım koşulları Son güncelleme: 16 Ekim 2026 LernKoko'ya üye olarak bu koşulları kabul etmiş olursun. Kişisel bilgilerinin nasıl"
+  },
+  {
+    "name": "Girissiz kayit istegi reddediliyor (401 beklenir)",
+    "ok": true,
+    "detail": "HTTP 401"
+  },
+  {
+    "name": "Sahte kimlik basligi ise yaramiyor (401 beklenir)",
+    "ok": true,
+    "detail": "HTTP 401"
+  },
+  {
+    "name": "Uyelik: kosullar onaylanmadan hesap acilmiyor",
+    "ok": true,
+    "detail": "Üye olmak için kullanım koşullarını ve gizlilik metnini kabul etmelisin."
+  },
+  {
+    "name": "Uyelik: uye olunca istenen sayfaya donuluyor (/fiiller)",
+    "ok": true,
+    "detail": "http://localhost:5173/fiiller"
+  },
+  {
+    "name": "Uyelik: oturum cerezi HttpOnly ve SameSite=Lax",
+    "ok": true,
+    "detail": "httpOnly true, sameSite Lax"
+  },
+  {
+    "name": "Uyelik: uye kendi kayitlarini okuyabiliyor",
+    "ok": true,
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "Uyelik: Hesabim sayfasi ad ve e-postayi gosteriyor",
+    "ok": true,
+    "detail": "Deneme Öğrenci · deneme-1792181515437@example.test"
+  },
+  {
+    "name": "Uyelik: cikis yapinca tanitim sayfasi ve kayitlar kapali",
+    "ok": true,
+    "detail": "tanitim 1, kayitlar HTTP 401"
+  },
+  {
+    "name": "Uyelik: yanlis sifreyle giris olmuyor",
+    "ok": true,
+    "detail": "E-posta ya da şifre yanlış."
+  },
+  {
+    "name": "Uyelik: dogru sifreyle giris yapinca istenen sayfaya donuluyor",
+    "ok": true,
+    "detail": "http://localhost:5173/hesabim"
+  },
+  {
+    "name": "Uyelik: hesap silinince kayitlar gidiyor ve giris artik olmuyor",
+    "ok": true,
+    "detail": "silindikten sonra giris HTTP 401"
+  },
+  {
+    "name": "Uyelik sayfalarinda betik hatasi yok",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Yerel giris taklidi",
+    "ok": true,
+    "detail": "son adres http://localhost:5173/ev-esyalar"
+  },
+  {
+    "name": "Sayfa /ev-esyalar",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"Nesne Kasası · LernKoko\", hata 2 (console: Failed to load resource: the server responded with a status of 404 (Not Found) | console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Site dili Türkçe Deutsch English العربية Українська Français Español Русский فارسی Polski Italiano Português Ana sayfa Nesne Kasası Nesne Kasası Tüm"
+  },
+  {
+    "name": "Sayfa /a1-2/ev-ve-yasam",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"Ev ve Yaşam · LernKoko\", hata 1 (console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: Ana sayfa Site dili Türkçe Deutsch English العربية Українська Français A1.2 › Ev ve Yaşam A1.2 · 11 · WOHNEN Ev ve Yaşam A–D A–D · Karma tekrar 206 alıştırma %0"
+  },
+  {
+    "name": "Sayfa /",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"LernKoko · Almanca ve İngilizce Eğitimi\", hata 1 (console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Site dili Türkçe Deutsch English العربية Українська Français Üniteler ve konular Nesne Kasası Fiiller İlerlemen Seviye 1 0 0 XP · Sonraki seviyeye 1"
+  },
+  {
+    "name": "Giris yapinca ana sayfada dersler var (tanitim yok)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Giristen sonra kayitlar okunuyor",
+    "ok": true,
+    "detail": "HTTP 200"
+  },
+  {
+    "name": "Test oturumu basliyor (veritabanina yazma)",
+    "ok": true,
+    "detail": "HTTP 201, soru obj-dictation-pfeil"
+  },
+  {
+    "name": "Cevap kaydediliyor ve dogru cevap donuyor",
+    "ok": true,
+    "detail": "HTTP 200, dogru mu: 0"
+  },
+  {
+    "name": "Kayit geri okunuyor (gecmis)",
+    "ok": true,
+    "detail": "cevaplanan 1/1"
+  },
+  {
+    "name": "Sayfa /fiiller",
+    "ok": true,
+    "detail": "HTTP 200, baslik \"Fiil Atölyesi · LernKoko\", hata 2 (console: Failed to load resource: the server responded with a status of 404 (Not Found) | console: Failed to load resource: the server responded with a status of 404 (Not Found)), metin: İçeriğe geç Site dili Türkçe Deutsch English العربية Українська Français Español Русский فارسی Polski Italiano Português Ana sayfa Fiil Atölyesi Fiil Atölyesi K"
+  },
+  {
+    "name": "Fiil Atolyesi sayfasinda yol paneli ve iki bolum var",
+    "ok": true,
+    "detail": "yol 1, bolum 2"
+  },
+  {
+    "name": "Telefonda tanitim sayfasi yana tasmiyor",
+    "ok": true,
+    "detail": "fazla genislik 0px"
+  }
+]

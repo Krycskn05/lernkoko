@@ -1,0 +1,46 @@
+$ node scripts/sounds/make-sounds.mjs && node scripts/run-framework.mjs build
+LernKoko sesleri hazır: tap 0.24s, tap2 0.24s, tap3 0.24s, whoosh 0.55s, correct 0.95s, complete 1.65s, soft 0.8s, beep 0.7s, retro 0.55s, low 0.95s, cartoon 0.85s
+
+  vinext build  (Vite 8.0.13)
+
+[34m[1/5] analyze client references...[39m
+[2Ktransforming...✓ 403 modules transformed.
+rendering chunks...
+[32m✓ built in 1.16s[39m
+[34m[2/5] analyze server references...[39m
+[2Ktransforming...✓ 209 modules transformed.
+rendering chunks...
+[32m✓ built in 306ms[39m
+[34m[3/5] build rsc environment...[39m
+[2Ktransforming...✓ 400 modules transformed.
+rendering chunks...
+computing gzip size...
+[32m✓ built in 870ms[39m
+[34m[4/5] build client environment...[39m
+[2Ktransforming...✓ 1987 modules transformed.
+rendering chunks...
+computing gzip size...
+[32m✓ built in 1.50s[39m
+[34m[5/5] build ssr environment...[39m
+[2Ktransforming...✓ 215 modules transformed.
+rendering chunks...
+computing gzip size...
+[32m✓ built in 602ms[39m
+[0m
+  Route (app)
+  ┌ ƒ /                  
+  ├ ƒ /a1-2/ev-ve-yasam  
+  ├ λ /api/auth          
+  ├ λ /api/study         
+  ├ ƒ /ev-esyalar        
+  ├ ƒ /fiiller           
+  ├ ƒ /giris             
+  ├ ƒ /gizlilik          
+  ├ ƒ /hesabim           
+  ├ ƒ /kullanim-kosullari
+  └ ƒ /uye-ol            
+
+  λ API  ƒ Dynamic
+
+  Build complete. Run `vinext start` to start the production server.
+

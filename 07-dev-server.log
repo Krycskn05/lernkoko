@@ -1,0 +1,72 @@
+$ node scripts/sounds/make-sounds.mjs && node scripts/run-framework.mjs dev
+LernKoko sesleri hazır: tap 0.24s, tap2 0.24s, tap3 0.24s, whoosh 0.55s, correct 0.95s, complete 1.65s, soft 0.8s, beep 0.7s, retro 0.55s, low 0.95s, cartoon 0.85s
+
+  vinext dev  (Vite 8.0.13)
+
+Sites local sign-in: seedy@sites.test
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m8:11:14 PM[22m [33m[1m[vite][22m[39m [33m[2m(rsc)[22m[39m [33mwarning: client component dependency is inconsistently optimized. It's recommended to add the dependency to 'optimizeDeps.exclude'.[39m
+  Plugin: [35mrsc:use-client[39m
+  File: [36m/home/runner/work/lernkoko/lernkoko/node_modules/.pnpm/lucide-react@1.31.0_react@19.2.6/node_modules/lucide-react/dist/esm/Icon.mjs?v=5cc0e215[39m
+ GET / 200 in 1.0s (compile: 1792181469.4s, render: 899ms)
+ GET / 200 in 50ms (compile: 1792181469.3s, render: 34ms)
+ GET /ev-esyalar 302 in 8ms
+ GET /giris?return_to=%2Fev-esyalar 200 in 66ms (compile: 1792181469.4s, render: 42ms)
+ GET /fiiller 302 in 8ms
+ GET /giris?return_to=%2Ffiiller 200 in 30ms (compile: 1792181469.3s, render: 21ms)
+ GET /a1-2/ev-ve-yasam 302 in 6ms
+ GET /giris?return_to=%2Fa1-2%2Fev-ve-yasam 200 in 27ms (compile: 1792181469.3s, render: 19ms)
+ GET /hesabim 302 in 6ms
+ GET /giris?return_to=%2Fhesabim 200 in 24ms (compile: 1792181469.3s, render: 16ms)
+ GET /giris 200 in 37ms (compile: 1792181469.4s, render: 17ms)
+ GET /uye-ol 200 in 34ms (compile: 1792181469.3s, render: 16ms)
+ GET /gizlilik 200 in 54ms (compile: 1792181469.4s, render: 19ms)
+ GET /kullanim-kosullari 200 in 37ms (compile: 1792181469.4s, render: 17ms)
+ GET /api/study 401 in 540ms
+ GET /api/study 401 in 7ms
+ GET /uye-ol?return_to=%2Ffiiller 200 in 30ms (compile: 1792181469.3s, render: 20ms)
+ POST /api/auth 400 in 60ms
+ POST /api/auth 201 in 32ms
+ GET /fiiller 200 in 739ms (compile: 1792181469.5s, render: 574ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 92ms
+ GET /api/study 200 in 14ms
+ GET /hesabim 200 in 96ms (compile: 1792181469.4s, render: 61ms)
+ POST /api/auth 200 in 18ms
+ GET / 200 in 42ms (compile: 1792181469.3s, render: 31ms)
+ GET /api/study 401 in 7ms
+ GET /giris?return_to=%2Fhesabim 200 in 26ms (compile: 1792181469.3s, render: 19ms)
+ POST /api/auth 401 in 28ms
+ POST /api/auth 200 in 28ms
+ GET /hesabim 200 in 31ms (compile: 1792181469.3s, render: 21ms)
+ POST /api/auth 200 in 31ms
+ GET / 200 in 42ms (compile: 1792181469.3s, render: 32ms)
+ POST /api/auth 401 in 729ms
+ GET /ev-esyalar 200 in 173ms (compile: 1792181469.4s, render: 137ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 930ms
+ GET /ev-esyalar 200 in 26ms (compile: 1792181469.3s, render: 17ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 1.2s
+ GET /a1-2/ev-ve-yasam 200 in 176ms (compile: 1792181469.4s, render: 127ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 26ms
+ GET / 200 in 70ms (compile: 1792181469.3s, render: 60ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 73ms
+ GET /api/study 200 in 13ms
+ POST /api/study 201 in 18ms
+ POST /api/study 200 in 14ms
+ GET /api/study 200 in 10ms
+ GET /fiiller 200 in 25ms (compile: 1792181469.3s, render: 17ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 57ms
+ GET / 200 in 33ms (compile: 1792181469.3s, render: 22ms)
+ GET /fiiller 302 in 6ms
+ GET /giris?return_to=%2Ffiiller 200 in 24ms (compile: 1792181469.3s, render: 16ms)
+ GET /fiiller 200 in 26ms (compile: 1792181469.3s, render: 18ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 192ms
+ POST /api/study?learn=de 201 in 75ms
+ POST /api/study?learn=de 200 in 19ms
+ POST /api/study?learn=de 200 in 16ms
+ POST /api/study?learn=de 200 in 21ms
+ GET /fiiller 200 in 28ms (compile: 1792181469.3s, render: 19ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 46ms
+ GET /fiiller 200 in 27ms (compile: 1792181469.3s, render: 18ms)
+ GET /api/study?stats=1&tz=0&learn=de 200 in 46ms
+[2m8:12:45 PM[22m [36m[1m[vite][22m[39m [34m[2m(rsc)[22m[39m [32mhmr update [39m[2m/app/globals.css[22m
+[2m8:12:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/app/globals.css?direct[22m
