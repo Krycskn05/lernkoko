@@ -1,0 +1,5 @@
+Adres: https://lernkoko.kooraycoskun.workers.dev
+/ -> HTTP 200 
+/giris -> HTTP 200 
+/api/study -> HTTP 401 
+/ev-esyalar -> HTTP 302 https://lernkoko.kooraycoskun.workers.dev/giris?return_to=%2Fev-esyalar
