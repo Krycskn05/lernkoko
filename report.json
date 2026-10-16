@@ -1,0 +1,190 @@
+{
+ "started": "2026-10-16 02:36 UTC",
+ "settings": "supertonic3-de-speed0.92-steps10-v1",
+ "texts": 1533,
+ "voices": {
+  "F5": {
+   "rate": 44100,
+   "rendered": 438,
+   "seconds": 697.9,
+   "median_pitch_hz": 163.9,
+   "asr": [
+    {
+     "text": "Ich habe zu viel Schokolade gegessen.",
+     "heard": "Ich habe zu viel Schokolade gegessen.",
+     "score": 1.0
+    },
+    {
+     "text": "Hat der Preis auch für sie gegolten?",
+     "heard": "Hat der Preis auch für sie gegolten?",
+     "score": 1.0
+    },
+    {
+     "text": "Jeden Tag ruft sie Papa an.",
+     "heard": "Jeden Tag ruft sie Papa an.",
+     "score": 1.0
+    }
+   ],
+   "asr_mean": 1.0,
+   "available": 1533
+  },
+  "M1": {
+   "rate": 44100,
+   "rendered": 680,
+   "seconds": 876.5,
+   "median_pitch_hz": 134.9,
+   "asr": [
+    {
+     "text": "Woher habt ihr den Weg gekannt?",
+     "heard": "Woher habt ihr den Weg gekannt?",
+     "score": 1.0
+    },
+    {
+     "text": "Bist du zu früh ausgestiegen?",
+     "heard": "bist du zu früh ausgestiegen.",
+     "score": 1.0
+    },
+    {
+     "text": "Das Handy lädt die Fotos herunter.",
+     "heard": "Das Handy lädt die Fotos herunter.",
+     "score": 1.0
+    }
+   ],
+   "asr_mean": 1.0,
+   "available": 1533
+  },
+  "M2": {
+   "rate": 44100,
+   "rendered": 680,
+   "seconds": 805.0,
+   "median_pitch_hz": 89.1,
+   "asr": [
+    {
+     "text": "Warum seht ihr so traurig aus?",
+     "heard": "Warum seht ihr so traurig aus?",
+     "score": 1.0
+    },
+    {
+     "text": "Das Kind leiht Lena seinen Ball.",
+     "heard": "Das Kind leidt Lena seinen Ball.",
+     "score": 0.968
+    },
+    {
+     "text": "Ich bringe dir einen Kaffee.",
+     "heard": "Ich bringe dir einen Kaffee.",
+     "score": 1.0
+    }
+   ],
+   "asr_mean": 0.989,
+   "available": 1533
+  },
+  "M3": {
+   "rate": 44100,
+   "rendered": 680,
+   "seconds": 765.9,
+   "median_pitch_hz": 112.8,
+   "asr": [
+    {
+     "text": "Wie lange bleibst du?",
+     "heard": "Wie lange bleibst du?",
+     "score": 1.0
+    },
+    {
+     "text": "Das Angebot hat nicht für ihn gegolten.",
+     "heard": "Das Angebot hat nicht für ihn gegolten.",
+     "score": 1.0
+    },
+    {
+     "text": "Um wie viel Uhr kommen Sie an?",
+     "heard": "Um wie viel Uhr kommen Sie an?",
+     "score": 1.0
+    }
+   ],
+   "asr_mean": 1.0,
+   "available": 1533
+  },
+  "M4": {
+   "rate": 44100,
+   "rendered": 680,
+   "seconds": 802.2,
+   "median_pitch_hz": 119.8,
+   "asr": [
+    {
+     "text": "Findet ihr Deutsch schwer?",
+     "heard": "findet ihr Deutsch schwer.",
+     "score": 1.0
+    },
+    {
+     "text": "Bieten Sie auch Deutschkurse an?",
+     "heard": "bieten Sie auch Deutschkurse an.",
+     "score": 1.0
+    },
+    {
+     "text": "Das Kind hat kein Gemüse gegessen.",
+     "heard": "Das Kind hat kein Gemüse gegessen.",
+     "score": 1.0
+    }
+   ],
+   "asr_mean": 1.0,
+   "available": 1533
+  },
+  "M5": {
+   "rate": 44100,
+   "rendered": 680,
+   "seconds": 1103.6,
+   "median_pitch_hz": 89.5,
+   "asr": [
+    {
+     "text": "Jeden Tag ruft sie Papa an.",
+     "heard": "Jeden Tag ruft sie Papa an.",
+     "score": 1.0
+    },
+    {
+     "text": "Im Bus hat sie ein Handy gefunden.",
+     "heard": "Im Bus hat sie ein Handy gefunden.",
+     "score": 1.0
+    },
+    {
+     "text": "Das Flugzeug fliegt um acht Uhr.",
+     "heard": "Das Flugzeug fliegt um 8 Uhr.",
+     "score": 0.912
+    }
+   ],
+   "asr_mean": 0.971,
+   "available": 1533
+  },
+  "F1": {
+   "available": 1533
+  },
+  "F2": {
+   "available": 1533
+  },
+  "F3": {
+   "available": 1533
+  },
+  "F4": {
+   "available": 1533
+  }
+ },
+ "errors": [],
+ "package": "1.3.1",
+ "init_signature": "(self, model: 'str' = 'supertonic-3', model_dir: 'Optional[Union[Path, str]]' = None, auto_download: 'bool' = True, intra_op_num_threads: 'Optional[int]' = None, inter_op_num_threads: 'Optional[int]' = None)",
+ "init_used": {
+  "model": "supertonic-3",
+  "auto_download": true
+ },
+ "synthesize_signature": "(text: 'str', voice_style: 'Style', total_steps: 'int' = 8, speed: 'float' = 1.05, max_chunk_length: 'Optional[int]' = None, silence_duration: 'float' = 0.3, lang: 'Optional[str]' = None, verbose: 'bool' = False) -> 'tuple[np.ndarray, np.ndarray]'",
+ "ready_voices": [
+  "F1",
+  "F2",
+  "F3",
+  "F4",
+  "F5",
+  "M1",
+  "M2",
+  "M3",
+  "M4",
+  "M5"
+ ],
+ "finished": "2026-10-16 04:01 UTC"
+}
